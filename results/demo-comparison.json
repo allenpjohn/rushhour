@@ -1,0 +1,482 @@
+{
+  "baseline": {
+    "scenario": "baseline",
+    "iterations": 28,
+    "relative_gap": 0.004978485967412888,
+    "total_demand_vehicles": 5575.0,
+    "metrics": {
+      "average_travel_time_min": 5.407825661205461,
+      "p95_travel_time_min": 7.6141821138296475,
+      "total_delay_vehicle_min": 3400.1353215006634,
+      "total_demand_vehicles": 5575.0,
+      "congested_edges": [
+        {
+          "origin": "r2c1",
+          "destination": "r2c2",
+          "flow_vph": 2376.28188681247,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.3201566037847057,
+          "travel_time_min": 0.9607024763673928
+        },
+        {
+          "origin": "r2c2",
+          "destination": "r2c3",
+          "flow_vph": 2347.5368564211253,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.3041871424561808,
+          "travel_time_min": 0.9464144018404034
+        },
+        {
+          "origin": "r2c3",
+          "destination": "r2c4",
+          "flow_vph": 2274.2817016884624,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.263489834271368,
+          "travel_time_min": 0.9123028769894482
+        },
+        {
+          "origin": "r2c0",
+          "destination": "r2c1",
+          "flow_vph": 2205.673387962743,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.2253741044237463,
+          "travel_time_min": 0.8832081189560783
+        },
+        {
+          "origin": "r0c3",
+          "destination": "r0c4",
+          "flow_vph": 846.9911832894811,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9411013147660902,
+          "travel_time_min": 1.0537957413812413
+        },
+        {
+          "origin": "r0c0",
+          "destination": "r0c1",
+          "flow_vph": 843.5552941577782,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9372836601753092,
+          "travel_time_min": 1.052006539269067
+        },
+        {
+          "origin": "r1c0",
+          "destination": "r1c1",
+          "flow_vph": 821.8748177193388,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9131942419103765,
+          "travel_time_min": 1.0412106412544337
+        },
+        {
+          "origin": "r2c4",
+          "destination": "r1c4",
+          "flow_vph": 813.367122209788,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9037412468997644,
+          "travel_time_min": 1.0372009875496435
+        },
+        {
+          "origin": "r1c3",
+          "destination": "r1c4",
+          "flow_vph": 809.2940249965509,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.899215583329501,
+          "travel_time_min": 1.0353253533370437
+        },
+        {
+          "origin": "r1c2",
+          "destination": "r1c3",
+          "flow_vph": 766.8273180773381,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.8520303534192646,
+          "travel_time_min": 1.0173916564073249
+        }
+      ]
+    },
+    "average_travel_time_change_pct": 0.0,
+    "delay_change_pct": 0.0
+  },
+  "bridge_closure": {
+    "scenario": "bridge_closure",
+    "iterations": 56,
+    "relative_gap": 0.004752600878272361,
+    "total_demand_vehicles": 5575.0,
+    "metrics": {
+      "average_travel_time_min": 6.6597955030329725,
+      "p95_travel_time_min": 8.76854217154566,
+      "total_delay_vehicle_min": 8145.56009196602,
+      "total_demand_vehicles": 5575.0,
+      "congested_edges": [
+        {
+          "origin": "r1c2",
+          "destination": "r1c3",
+          "flow_vph": 1328.3115893411205,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.4759017659345783,
+          "travel_time_min": 1.6139258138107153
+        },
+        {
+          "origin": "r1c1",
+          "destination": "r1c2",
+          "flow_vph": 1325.8676876835768,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.4731863196484187,
+          "travel_time_min": 1.6090007486886553
+        },
+        {
+          "origin": "r0c2",
+          "destination": "r0c3",
+          "flow_vph": 1318.3644797510706,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.464849421945634,
+          "travel_time_min": 1.5940491940402008
+        },
+        {
+          "origin": "r3c1",
+          "destination": "r3c2",
+          "flow_vph": 1306.237177232061,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.4513746413689566,
+          "travel_time_min": 1.570417176481073
+        },
+        {
+          "origin": "r3c2",
+          "destination": "r3c3",
+          "flow_vph": 1295.9940675768298,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.4399934084186998,
+          "travel_time_min": 1.5509629784006045
+        },
+        {
+          "origin": "r4c1",
+          "destination": "r4c2",
+          "flow_vph": 1293.3137725755957,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.4370153028617731,
+          "travel_time_min": 1.5459479748838447
+        },
+        {
+          "origin": "r0c1",
+          "destination": "r0c2",
+          "flow_vph": 1289.5813625087667,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.4328681805652963,
+          "travel_time_min": 1.5390161480809192
+        },
+        {
+          "origin": "r4c2",
+          "destination": "r4c3",
+          "flow_vph": 1272.3298633309794,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.4136998481455327,
+          "travel_time_min": 1.5077498916440077
+        },
+        {
+          "origin": "r0c0",
+          "destination": "r0c1",
+          "flow_vph": 976.4202059473373,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.0849113399414858,
+          "travel_time_min": 1.1387931028928056
+        },
+        {
+          "origin": "r0c3",
+          "destination": "r0c4",
+          "flow_vph": 960.2175408055243,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.0669083786728049,
+          "travel_time_min": 1.1261078493231205
+        }
+      ]
+    },
+    "average_travel_time_change_pct": 23.15107624139707,
+    "delay_change_pct": 139.56576199946488
+  },
+  "add_lane": {
+    "scenario": "add_lane",
+    "iterations": 20,
+    "relative_gap": 0.004488394132574644,
+    "total_demand_vehicles": 5575.0,
+    "metrics": {
+      "average_travel_time_min": 5.211272769440659,
+      "p95_travel_time_min": 7.253452792976219,
+      "total_delay_vehicle_min": 2618.8442493140724,
+      "total_demand_vehicles": 5575.0,
+      "congested_edges": [
+        {
+          "origin": "r2c3",
+          "destination": "r2c4",
+          "flow_vph": 2279.422622558652,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.2663459014214735,
+          "travel_time_min": 0.9145919051497786
+        },
+        {
+          "origin": "r2c0",
+          "destination": "r2c1",
+          "flow_vph": 2249.425292515499,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.2496807180641663,
+          "travel_time_min": 0.9014523687255919
+        },
+        {
+          "origin": "r2c1",
+          "destination": "r2c2",
+          "flow_vph": 2908.723798916798,
+          "capacity_vph": 2700.0,
+          "volume_capacity_ratio": 1.0773051107099252,
+          "travel_time_min": 0.7933490957738994
+        },
+        {
+          "origin": "r2c2",
+          "destination": "r2c3",
+          "flow_vph": 2899.9845557939166,
+          "capacity_vph": 2700.0,
+          "volume_capacity_ratio": 1.074068353997747,
+          "travel_time_min": 0.791753717540981
+        },
+        {
+          "origin": "r0c0",
+          "destination": "r0c1",
+          "flow_vph": 845.9189599855964,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9399099555395516,
+          "travel_time_min": 1.0532350495114007
+        },
+        {
+          "origin": "r0c3",
+          "destination": "r0c4",
+          "flow_vph": 845.1137051332051,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9390152279257835,
+          "travel_time_min": 1.0528153615028832
+        },
+        {
+          "origin": "r1c0",
+          "destination": "r1c1",
+          "flow_vph": 814.7199335737898,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9052443706375443,
+          "travel_time_min": 1.0378302148165977
+        },
+        {
+          "origin": "r1c3",
+          "destination": "r1c4",
+          "flow_vph": 812.2255628103584,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9024728475670649,
+          "travel_time_min": 1.0366724558273352
+        },
+        {
+          "origin": "r2c4",
+          "destination": "r1c4",
+          "flow_vph": 794.7468665362164,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.8830520739291293,
+          "travel_time_min": 1.0288539671800383
+        },
+        {
+          "origin": "r1c0",
+          "destination": "r2c0",
+          "flow_vph": 702.1348292002424,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.7801498102224915,
+          "travel_time_min": 0.995247237538659
+        }
+      ]
+    },
+    "average_travel_time_change_pct": -3.6346011147295076,
+    "delay_change_pct": -22.97823463807802
+  },
+  "lower_speed_limit": {
+    "scenario": "lower_speed_limit",
+    "iterations": 29,
+    "relative_gap": 0.004916582983814967,
+    "total_demand_vehicles": 5575.0,
+    "metrics": {
+      "average_travel_time_min": 5.564634066036446,
+      "p95_travel_time_min": 7.7713758662959265,
+      "total_delay_vehicle_min": 3919.911855496136,
+      "total_demand_vehicles": 5575.0,
+      "congested_edges": [
+        {
+          "origin": "r2c0",
+          "destination": "r2c1",
+          "flow_vph": 2184.393888653698,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.2135521603631656,
+          "travel_time_min": 0.8747182631408651
+        },
+        {
+          "origin": "r2c3",
+          "destination": "r2c4",
+          "flow_vph": 2171.764230209201,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.206535683449556,
+          "travel_time_min": 0.8697953594375332
+        },
+        {
+          "origin": "r1c2",
+          "destination": "r1c3",
+          "flow_vph": 920.4820206924804,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 1.0227578007694227,
+          "travel_time_min": 1.0976063231020985
+        },
+        {
+          "origin": "r2c1",
+          "destination": "r2c2",
+          "flow_vph": 1811.8358100935334,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.006575450051963,
+          "travel_time_min": 1.0880423907073038
+        },
+        {
+          "origin": "r2c2",
+          "destination": "r2c3",
+          "flow_vph": 1801.2452758024629,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.0006918198902572,
+          "travel_time_min": 1.0846774930069343
+        },
+        {
+          "origin": "r1c1",
+          "destination": "r1c2",
+          "flow_vph": 888.7319398708241,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9874799331898046,
+          "travel_time_min": 1.0773348421980709
+        },
+        {
+          "origin": "r0c1",
+          "destination": "r0c2",
+          "flow_vph": 874.8036089453228,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9720040099392476,
+          "travel_time_min": 1.069100745881797
+        },
+        {
+          "origin": "r0c3",
+          "destination": "r0c4",
+          "flow_vph": 867.3960125183369,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9637733472425966,
+          "travel_time_min": 1.0648787672485769
+        },
+        {
+          "origin": "r0c2",
+          "destination": "r0c3",
+          "flow_vph": 862.2343007625188,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9580381119583543,
+          "travel_time_min": 1.0620000792192608
+        },
+        {
+          "origin": "r0c0",
+          "destination": "r0c1",
+          "flow_vph": 856.2388023139672,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9513764470155192,
+          "travel_time_min": 1.0587206676863095
+        }
+      ]
+    },
+    "average_travel_time_change_pct": 2.899657175635184,
+    "delay_change_pct": 15.286936690686392
+  },
+  "add_signal": {
+    "scenario": "add_signal",
+    "iterations": 30,
+    "relative_gap": 0.004695668314132686,
+    "total_demand_vehicles": 5575.0,
+    "metrics": {
+      "average_travel_time_min": 5.499585209386315,
+      "p95_travel_time_min": 7.693451536199327,
+      "total_delay_vehicle_min": 3747.835881096406,
+      "total_demand_vehicles": 5575.0,
+      "congested_edges": [
+        {
+          "origin": "r2c2",
+          "destination": "r2c3",
+          "flow_vph": 2359.184447705457,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.3106580265030316,
+          "travel_time_min": 0.9521411674908892
+        },
+        {
+          "origin": "r2c3",
+          "destination": "r2c4",
+          "flow_vph": 2230.3703391054282,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.239094632836349,
+          "travel_time_min": 0.8933743374002977
+        },
+        {
+          "origin": "r2c1",
+          "destination": "r2c2",
+          "flow_vph": 2052.0301148244343,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.140016730458019,
+          "travel_time_min": 0.8272168716723202
+        },
+        {
+          "origin": "r2c0",
+          "destination": "r2c1",
+          "flow_vph": 1972.6153987631321,
+          "capacity_vph": 1800.0,
+          "volume_capacity_ratio": 1.0958974437572957,
+          "travel_time_min": 1.1527956081054311
+        },
+        {
+          "origin": "r0c0",
+          "destination": "r0c1",
+          "flow_vph": 878.0117415229619,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9755686016921798,
+          "travel_time_min": 1.0709628303912995
+        },
+        {
+          "origin": "r1c0",
+          "destination": "r1c1",
+          "flow_vph": 864.5081797837272,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9605646442041413,
+          "travel_time_min": 1.0632618717421594
+        },
+        {
+          "origin": "r0c3",
+          "destination": "r0c4",
+          "flow_vph": 850.5319006779855,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9450354451977617,
+          "travel_time_min": 1.0556624534736392
+        },
+        {
+          "origin": "r0c1",
+          "destination": "r0c2",
+          "flow_vph": 821.3348516948472,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9125942796609413,
+          "travel_time_min": 1.0409524256120146
+        },
+        {
+          "origin": "r1c3",
+          "destination": "r1c4",
+          "flow_vph": 819.812031196533,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9109022568850367,
+          "travel_time_min": 1.0402269403975688
+        },
+        {
+          "origin": "r1c1",
+          "destination": "r1c2",
+          "flow_vph": 814.6570861137908,
+          "capacity_vph": 900.0,
+          "volume_capacity_ratio": 0.9051745401264342,
+          "travel_time_min": 1.0378009133328403
+        }
+      ]
+    },
+    "average_travel_time_change_pct": 1.6967919073116011,
+    "delay_change_pct": 10.226080044434326
+  }
+}

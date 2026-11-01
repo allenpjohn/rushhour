@@ -1,0 +1,17 @@
+.git
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+*.py[cod]
+cache
+results
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+*.secret
+*.pem
+*.key
+*.p12
